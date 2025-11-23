@@ -1,0 +1,77 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+  color: #111;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 1rem;
+}
+
+.logo {
+  width: 200px;
+}
+
+.slider {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.slides {
+  display: flex;
+  width: 300%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide img {
+  width: 100%;
+  display: block;
+}
+
+.articles-preview, .newsletter, main {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto 2rem;
+}
+
+.articles-preview ul, .articles-list {
+  list-style: none;
+  padding: 0;
+}
+
+.articles-preview li, .articles-list li {
+  margin: 0.5rem 0;
+}
+
+a {
+  color: #111;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.newsletter input[type="email"] {
+  padding: 0.5rem;
+  width: 60%;
+  margin-right: 0.5rem;
+}
+
+.newsletter button {
+  padding: 0.5rem 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  border-top: 1px solid #ccc;
+}
+
+.social-share a {
+  margin: 0 0.5rem;
+}
